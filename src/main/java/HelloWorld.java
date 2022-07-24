@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/hello", (req, res) -> "Hello Webdemo-java from jenkins with maven automation final auto build");
+		get("/hello", (req, res) -> "Hello Webdemo-java from jenkins with maven automation final auto build?");
 	}
 }
